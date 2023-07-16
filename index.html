@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>this is a web that used to learning web design</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <p>在html的基礎架構中，有下列幾個必須包含的標籤：<br/>
+    <!-- &lt;&gt; -->
+        1.&lt;!DOCTYPE html&gt;是用來告訴瀏覽器文件類型為html<br/>
+        2.&lt;html&gt;&lt;/html&gt;是用來包住除了&lt;!DOCTYPE html&gt;以外的所有內容<br/>
+        3.&lt;head&gt;&lt;/head&gt;是用來寫要告訴瀏覽器的資訊，裡面的所有內容都不會被顯示出來<br/>
+        4.&lt;meta&gt;是用來寫網頁資訊的，能為自己的網頁加上各種資訊，其中&lt;meta charset="UTF-8"&gt;是告訴瀏覽器這份文件的編碼方式<br/>
+        5.&lt;title&gt;&lt;/title&gt;是用來寫網頁標題的，也就是瀏覽器上方分頁會顯示的文字<br/>
+        6.&lt;body&gt;&lt;body&gt;是用來寫網頁內文的，也就是會顯示出來的內容
+    </p>
+    <P>接著是一些常用的功能標籤:<br/>
+        "&lt;h1&gt;&lt;/h&gt;"是標題標籤，有1~6級大小可選<br/>
+        "&lt;!--  --&gt;"是註解標籤<br/>
+        "&lt;p&gt;&lt;/p&gt;"是段落標籤<br/>
+        "&lt;br/&gt;"是換行標籤<br/>
+        "&lt;hr/&gt;"是換行並加上分隔線<br/>
+        "&lt;b&gt;&lt;/b&gt;"是粗體字<br/>
+        "&lt;i&gt;&lt;/i&gt;"是斜體字<br/>
+        "&lt;a herf="連結"&gt;說明文字&lt;/a&gt;"是插入連結，herf裡放想要插入的連結
+        (可以插入自己的其他檔案連結，若在同個資料夾就寫上檔名就好；否則須在檔名前加上"資料夾名稱/"，返回原本檔案則要加"../"")<br/>
+        "&lt;img src="連結"/&gt;"是插入圖片，與插入連結的方式一樣
+        (可以多加上width跟height屬性進行不等比縮放，若只給其中一項屬性則是等比縮放)<br/>
+        "&lt;video src="連結" controls&gt;無法載入時顯示的文字"&lt;/video&gt;"是插入影片，controls 是加入影片控制器
+        (可以控制視窗大小，方法與圖片相同)<br/>
+        "&lt;ul&gt;&lt;/ul&gt;"是列表，裡面的內容每個都要用"&lt;li&gt;&lt;/li&gt;"包住
+        (ul的列表是用"．"，若想改成不同樣式的列表則需要用"&lt;ol&gt;&lt;/ol&gt;"，ol可加上type屬性，用來改變樣式)<br/>
+        "&lt;table&gt;&lt;/table&gt;"是表格，橫行以"&lt;tr&gt;&lt;/tr&gt;"包住，直列則是"&lt;td&gt;&lt;/td&gt;"<br/>
+        "&lt;div&gt;&lt;/div&gt;"和"&lt;span&gt;&lt;/span&gt;"是容器，作用是讓之後css的撰寫更加簡便，
+        兩者的差別在於前者不論寬度多少就是佔一整行，後者則是有多寬就佔多寬<br/>
+        "&lt;input&gt; type/"是輸入框，有許多不同的type可以選擇，也能加入placeholder為輸入框添加輸入提示<br/>
+        "&lt;textarea&gt;&lt;/textarea&gt;"是能輸入更多字的輸入框<br/>
+    </P>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CLUPkcLQm64" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <br />
+    <br />
+    <br />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ml78vnNTBLw" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    
+</body>
+
+</html>
